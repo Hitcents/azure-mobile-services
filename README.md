@@ -1,5 +1,7 @@
 # Windows Azure Mobile Services
 
+<b>This is a fork by Hitcents</b>
+
 With Windows Azure Mobile Services you can add a scalable backend to your connected client applications in minutes. To learn more, visit our [Developer Center](http://www.windowsazure.com/en-us/develop/mobile).
 
 ## Getting Started
