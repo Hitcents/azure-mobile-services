@@ -542,5 +542,10 @@ namespace Microsoft.WindowsAzure.MobileServices
         {
             return ReadAsync().ContinueWith (t => (List<T>)new TotalCountList<T> (t.Result));
         }
+
+        public MobileServiceTableQuery<T> WithParameters(IDictionary<string, string> parameters)
+        {
+            return this.WithParameters(parameters);
+        }
     }
 }

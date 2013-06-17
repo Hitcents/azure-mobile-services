@@ -208,6 +208,8 @@ namespace Microsoft.WindowsAzure.MobileServices
         /// <returns>A query against the table.</returns>
         MobileServiceTableQuery<T> Take(int count);
 
+        MobileServiceTableQuery<T> WithParameters(IDictionary<string, string> parameters);
+
         /// <summary>
         /// Gets the elements of the table asynchronously.
         /// </summary>
